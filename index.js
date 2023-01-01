@@ -10,5 +10,5 @@ const sum = multiply(5);
 console.log(sum);
 
 function sayHi(name) {
-  return `Hello ${name}!How are you?`;
+  return `Hello ${name}!How are you?I am fine thank you`;
 }
