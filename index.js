@@ -1,4 +1,10 @@
 setTimeout(() => {
-  alert("Hello");
+  console.log("Hello");
 }, 1000);
 console.log("this change is from test branch");
+function multiply(a, b = a) {
+  return a * b;
+}
+
+const sum = multiply(5);
+console.log(sum);
