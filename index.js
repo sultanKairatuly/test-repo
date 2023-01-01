@@ -12,3 +12,5 @@ console.log(sum);
 function sayHi(name) {
   return `Hello ${name}!How are you?`;
 }
+
+console.log(sayHi("Darwin"));
